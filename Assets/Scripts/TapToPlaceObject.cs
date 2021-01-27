@@ -20,6 +20,7 @@ public class TapToPlaceObject : MonoBehaviour
     {
         //arOrigin = FindObjectOfType<ARSessionOrigin>();
         aRRaycastManager = FindObjectOfType<ARRaycastManager>();
+        Screen.orientation = ScreenOrientation.AutoRotation;
     }
 
     void Update()
