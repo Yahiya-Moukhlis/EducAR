@@ -26,7 +26,7 @@ public class TapToPlaceObject : MonoBehaviour
     void Update()
     {
         if (condition){
-            Toast.Instance.Show("Wait for the indicator to appear then chose an object to pick", 3f);
+            Toast.Instance.Show("Wait for the indicator to appear then chose an object to pick", 5f, Toast.ToastColor.Blue);
             condition = false;
         }
         UpdatePlacementPose();
@@ -72,7 +72,7 @@ public class TapToPlaceObject : MonoBehaviour
     public void ShowText(string textToShow){
         if (placementPoseIsValid)
         {
-            Toast.Instance.Show(textToShow,2f);
+            Toast.Instance.Show(textToShow, 5f, Toast.ToastColor.Green);
         }
     }
 

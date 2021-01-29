@@ -560,7 +560,7 @@ GameObject:
   - component: {fileID: 549940350}
   - component: {fileID: 549940349}
   m_Layer: 5
-  m_Name: Chose a cat txt
+  m_Name: Chose a category txt
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
